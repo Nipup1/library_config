@@ -5,6 +5,10 @@ spring:
   application:
     name: gateway-service
   security:
+    basic:
+      enabled: false  
+    formLogin:
+      enabled: false
     oauth2:
       resourceserver:
         jwt:
